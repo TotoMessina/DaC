@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Mi Tienda</div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Bienvenido a Mi Tienda</h1>
+            <p>Descubre nuestros productos</p>
+            <button onclick="irAProductos()">Ver Productos</button>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div id="product-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Tienda</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
